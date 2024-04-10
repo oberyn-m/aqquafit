@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
+	<meta name="author" content="AdminKit">
+	<meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+
+	<link rel="canonical" href="https://demo-basic.adminkit.io/matricula.html" />
+
+	<title>Aqquafit - Relatórios</title>
+
+	<link href="css/app.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+    <nav id="sidebar" class="sidebar js-sidebar">
+      <div class="sidebar-content js-simplebar">
+        <a class="sidebar-brand" href="home.html">
+          <span class="align-middle">Aqquafit</span>
+        </a>
+
+        <ul class="sidebar-nav">
+          <li class="sidebar-header">Inicial</li>
+
+          <li class="sidebar-item active">
+            <a class="sidebar-link" href="home.html">
+              <i class="align-middle" data-feather="sliders"></i>
+              <span class="align-middle">Dashboard</span>
+            </a>
+          </li>
+
+          <li class="sidebar-header">Cadastros</li>
+
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="aluno.html">
+              <i class="align-middle" data-feather="user"></i>
+              <span class="align-middle">Alunos</span>
+            </a>
+          </li>
+
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="matricula.html">
+              <i class="align-middle" data-feather="user-check"></i>
+              <span class="align-middle">Matrículas</span>
+            </a>
+          </li>
+
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="professor.html">
+              <i class="align-middle" data-feather="users"></i>
+              <span class="align-middle">Professores</span>
+            </a>
+          </li>
+
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="turmas.html">
+              <i class="align-middle" data-feather="grid"></i>
+              <span class="align-middle">Turmas</span>
+            </a>
+          </li>
+
+          <li class="sidebar-header">Gestão</li>
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="gestao.html">
+              <i class="align-middle" data-feather="dollar-sign"></i>
+              <span class="align-middle">Mensalidades</span>
+            </a>
+          </li>
+
+          <li class="sidebar-header">Controles</li>
+
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="relatorios.html">
+              <i class="align-middle" data-feather="pie-chart"></i>
+              <span class="align-middle">Relatórios</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+		<div class="main">
+			<nav class="navbar navbar-expand navbar-light navbar-bg">
+				<a class="sidebar-toggle js-sidebar-toggle">
+          <i class="hamburger align-self-center"></i>
+        </a>
+				<div class="navbar-collapse collapse">
+				</div>
+			</nav>
+
+			<main class="content">
+        <h1 class="h3 mb-3"><strong>Relatórios</strong></h1>
+				<div class="container-fluid p-0">
+					<div class="row">
+						<div class="col-12 col-lg-4">
+							<div class="card">
+								<div class="card-header">
+									<h5 class="card-title mb-0">Aniversariantes do Mês de Abril:</h5>
+								</div>
+								<div class="card-body">
+									<button class="btn btn-info">
+                    <a style="text-decoration: none; color: inherit;" href="./gestao.html">Imprimir</a>
+                  </button>
+								</div>
+							</div>
+
+              <div class="card">
+								<div class="card-header">
+									<h5 class="card-title mb-0">Comissão do Professor:</h5>
+								</div>
+								<div class="card-body">
+                  <input type="date" class="form-control" placeholder="Data Inicial">
+                  <br>
+                  <input type="date" class="form-control" placeholder="Data Final">
+                  <br>
+									<button class="btn btn-info">
+                    <a style="text-decoration: none; color: inherit;" href="./gestao.html">Imprimir</a>
+                  </button>
+								</div>
+							</div>
+
+              <div class="card">
+								<div class="card-header">
+									<h5 class="card-title mb-0">Lista de Alunos Por Turma:</h5>
+								</div>
+								<div class="card-body">
+                  <select id="inserir_dados" class="form-control">
+                    <option>Turma 1 - 08:00 ás 08:40 - Maria</option>
+                    <option>Turma 2 - 08:40 ás 09:20 - Maria</option>
+                    <option>Turma 3 - 09:20 ás 10:00 - Jessica</option>
+                    <option>Turma 4 - 10:00 ás 10:40 - Jessica</option>
+                  </select>
+                  <br>
+									<button class="btn btn-info">
+                    <a style="text-decoration: none; color: inherit;" href="./gestao.html">Imprimir</a>
+                  </button>
+								</div>
+							</div>
+
+              <div class="card">
+								<div class="card-header">
+									<h5 class="card-title mb-0">Faturamento do Mês de Abril:</h5>
+								</div>
+								<div class="card-body">
+									<button class="btn btn-info">
+                    <a style="text-decoration: none; color: inherit;" href="./gestao.html">Imprimir</a>
+                  </button>
+								</div>
+							</div>
+
+              <div class="card">
+								<div class="card-header">
+									<h5 class="card-title mb-0">Inadimplentes:</h5>
+								</div>
+								<div class="card-body">
+									<button class="btn btn-info">
+                    <a style="text-decoration: none; color: inherit;" href="./report/relatorio-aqquafit-inadimplentes.pdf" target="_blank">Imprimir</a>
+                  </button>
+								</div>
+							</div>
+
+            </div>
+					</div>
+			</main>
+		</div>
+	</div>
+
+	<script src="js/app.js"></script>
+
+</body>
+
+</html>
